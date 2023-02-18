@@ -1,0 +1,35 @@
+.nav_bar {
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+
+    padding: 0px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_title {
+    font-size: 25px;
+    font-weight: normal;
+}
+.nav_links {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_link {
+    width: 125px;
+    height: 100%;
+    
+    border: none;
+    background-color: transparent;
+    font-size: 17.5px;
+}
+.nav_link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 0.25s ease-in-out;
+    cursor: pointer;
+}

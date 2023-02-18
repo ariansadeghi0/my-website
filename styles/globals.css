@@ -1,7 +1,5 @@
 :root {
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font: 'Montserrat', sans-serif;
 
   --foreground-color: rgb(1, 1, 1);
   --background-color: rgb(50, 50, 50);
@@ -11,6 +9,8 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+
+  font-family: var(--font);
 }
 
 html,
