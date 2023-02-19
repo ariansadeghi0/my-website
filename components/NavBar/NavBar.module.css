@@ -12,8 +12,8 @@
     align-items: center;
 }
 .nav_title {
-    font-size: 25px;
-    font-weight: normal;
+    font-size: 22.5px;
+    font-weight: 500;
     color: var(--nav-foreground-color);
 }
 .nav_links {
