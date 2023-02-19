@@ -3,6 +3,7 @@
 
   --foreground-color: rgb(203, 234, 235);
   --background-color: rgb(36, 42, 49);
+  --about-background-color: rgb(35, 35, 45);
   --name-color: rgb(233, 254, 255);
   --drop-shadow-color: rgba(125, 246, 255, 0.75);
   --nav-foreground-color: rgb(255, 255, 255);

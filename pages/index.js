@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar/NavBar'
 import Hero from '@/components/Hero/Hero'
+import About from '@/components/About/About'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <main className={styles.main}>
         <NavBar/>
         <Hero/>
+        <About/>
       </main>
     </>
   )
