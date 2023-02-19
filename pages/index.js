@@ -1,10 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 import NavBar from '@/components/NavBar/NavBar'
-
-const inter = Inter({ subsets: ['latin'] })
+import Hero from '@/components/Hero/Hero'
 
 export default function Home() {
   return (
@@ -17,14 +14,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <NavBar/>
-        <div className={styles.hero}>
-          <Image className={styles.hero_image}
-            src="/my-photo.jpg"
-            alt="A photo of Arian"
-            width={1920}
-            height={1280}
-          />
-        </div>
+        <Hero/>
       </main>
     </>
   )
