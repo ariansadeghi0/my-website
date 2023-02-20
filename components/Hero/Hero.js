@@ -4,9 +4,9 @@ import GlitchingText from '../GlitchingText/GlitchingText';
 
 export default function Hero() {
     return (
-        <div className={styles.hero}>
+        <section className={styles.hero}>
           <div className={styles.text_lines}>
-            <h1 className={styles.text_line}>Hey there! My name is</h1>
+            <h2 className={styles.text_line}>Hey there! My name is</h2>
             <h1 className={styles.text_line}>Arian</h1>
             <GlitchingText
                 staticText={"& "}
@@ -20,6 +20,6 @@ export default function Hero() {
             width={2373}
             height={2095}
           />
-        </div>
+        </section>
     )
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function About() {
     return (
-        <div className={styles.about}>
+        <section className={styles.about}>
             <div className={styles.outer_container}>
                 <h1 className={styles.title}>About Me</h1>
                 <div className={styles.inner_container}>
@@ -21,6 +21,6 @@ export default function About() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }

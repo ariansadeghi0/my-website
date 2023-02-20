@@ -28,5 +28,5 @@
     font-size: 14vw;
     font-weight: 700;
     color: var(--name-color);
-    filter: drop-shadow(0px 0px 40px var(--drop-shadow-color));
+    filter: drop-shadow(0px 0px 40px var(--name-shadow-color));
   }

@@ -61,6 +61,6 @@ export default function GlitchingText({ staticText, strings }) {
     }, []);
 
     return (
-        <h1 className={styles.text_line}>{staticText}{currentText}</h1>
+        <h2 className={styles.text_line}>{staticText}{currentText}</h2>
     )
 }

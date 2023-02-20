@@ -19,7 +19,10 @@ export default function Home() {
       <main className={styles.main}>
         <NavBar/>
         <Hero/>
-        <About/>
+        <div className={styles.sections}>
+          <About/>
+        </div>
+        
       </main>
     </>
   )
