@@ -11,6 +11,7 @@
     left: 82.5%;
     transform: translate(-82.5%);
     top: 25%;
+    -webkit-user-drag: none;
   }
   .text_lines {
     position: absolute;

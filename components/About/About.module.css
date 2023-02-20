@@ -1,5 +1,5 @@
 .about {
-    margin: 75px 0px 75px 0px;
+    margin: var(--section-margin);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +45,7 @@
     height: 300px;
     border-radius: 50%;
     margin: 20px;
+    -webkit-user-drag: none;
 
     filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
     transition: all 0.25s ease-in-out;

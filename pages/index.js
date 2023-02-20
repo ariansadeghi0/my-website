@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
-import NavBar from '@/components/NavBar/NavBar'
-import Hero from '@/components/Hero/Hero'
-import About from '@/components/About/About'
+import Head from 'next/head';
+import styles from '@/styles/Home.module.css';
+import NavBar from '@/components/NavBar/NavBar';
+import Hero from '@/components/Hero/Hero';
+import About from '@/components/About/About';
+import Project from '@/components/Projects/Project';
+import Projects from '@/components/Projects/Projects';
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
         <Hero/>
         <div className={styles.sections}>
           <About/>
+          <Projects/>
         </div>
         
       </main>

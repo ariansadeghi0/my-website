@@ -1,0 +1,31 @@
+.section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: var(--section-margin);
+}
+
+.title {
+    font-size: 100px;
+    font-weight: 500;
+    color: var(--projects-title-color);
+    filter: drop-shadow(0px 0px 25px rgb(121, 126, 170));
+    transition: all 0.25s ease-in-out;
+}
+.title:hover {
+    letter-spacing: 20px;
+}
+
+.note {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

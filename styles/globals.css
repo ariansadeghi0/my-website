@@ -3,21 +3,24 @@
   --foreground-color: rgb(203, 234, 235);
   --background-color: rgb(36, 42, 49);
   
+  /* NAV */
+  --nav-foreground-color: rgb(255, 255, 255);
+  --nav-background-color: rgb(34, 36, 39);
+  --nav-link-hover-color: rgb(65, 65, 65);
+
   /* HERO */
   --name-color: rgb(233, 254, 255);
   --name-shadow-color: rgba(125, 246, 255, 0.75);
 
   /* SECTIONS */
   --sections-background-color: rgb(35, 35, 45);
+  --section-margin: 75px 0px 75px 0px;
 
   /* ABOUT */
   --about-title-color: rgb(224, 245, 215);
 
-
-  /* NAV */
-  --nav-foreground-color: rgb(255, 255, 255);
-  --nav-background-color: rgb(34, 36, 39);
-  --nav-link-hover-color: rgb(65, 65, 65);
+  /* PROJECTS */
+  --projects-title-color: rgb(170, 235, 196);
 }
 
 * {
