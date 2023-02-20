@@ -38,7 +38,7 @@ export default function Experiences() {
 
 function Experience({imgSrc, position, note, description}) {
     return (
-        <div className={styles.experience}>
+        <div className={styles.experience} name="experiences">
             <Image className={styles.image}
                 src={imgSrc}
                 quality={100}

@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Skills() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} name="skills">
             <h1 className={styles.title}>Skills</h1>
             <h3 className={styles.note}>Here are some of my skills and the technologies I have experience with</h3>
             <div className={styles.subsections}>

@@ -26,6 +26,8 @@
 .nav_link {
     width: 125px;
     height: 100%;
+    text-align: center;
+    line-height: 50px;
     
     border: none;
     background-color: transparent;

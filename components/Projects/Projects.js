@@ -4,7 +4,7 @@ import Project from "./Project";
 
 export default function Projects() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} name="projects">
             <h1 className={styles.title}>Projects</h1>
             <h3 className={styles.note}>Click on the names to see more!</h3>
             <div className={styles.projects}>
