@@ -4,7 +4,7 @@ import GlitchingText from '../GlitchingText/GlitchingText';
 
 export default function Hero() {
     return (
-        <section className={styles.hero}>
+        <section className={styles.hero} name="hero">
           <div className={styles.text_lines}>
             <h2 className={styles.text_line}>Hey there! My name is</h2>
             <h1 className={styles.text_line}>Arian</h1>

@@ -16,6 +16,9 @@
     font-weight: 500;
     color: var(--nav-foreground-color);
 }
+.nav_title:hover {
+    cursor: pointer;
+}
 .nav_links {
     width: auto;
     height: 100%;

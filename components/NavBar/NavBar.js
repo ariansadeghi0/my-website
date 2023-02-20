@@ -5,7 +5,9 @@ import { Link } from "react-scroll";
 export default function NavBar() {
     return (
         <nav className={styles.nav_bar}>
-          <h1 className={styles.nav_title}>Arian Sadeghi</h1>
+          <Link className={styles.nav_title} to="hero" smooth={true} duration={500}>
+            Arian Sadeghi
+          </Link>
           <div className={styles.nav_links}>
             <Link className={styles.nav_link} to="about" offset={-75} smooth={true} duration={500}>
               About
