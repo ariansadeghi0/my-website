@@ -1,8 +1,8 @@
 .project {
     background-color: rgb(29, 28, 34);
     
-    height: 450px;
-    width: 400px;
+    height: 405px;
+    width: 360px;
     margin: 20px;
     border-radius: 10px;
     filter: drop-shadow(0px 5px 5px rgb(0, 0, 0));
@@ -23,13 +23,13 @@
 }
 .name {
     position: absolute;
-    bottom: 225px;
+    bottom: 50%;
     width: 100%;
     padding: 7.5px;
     color: rgb(255, 255, 255);
     background-color: rgba(0, 0, 0, 0.5);
 
-    font-size: 20px;
+    font-size: 17.5px;
     font-weight: 700;
 }
 .name:hover {
@@ -37,7 +37,7 @@
 }
 .description {
     padding: 7.5px;
-    font-size: 17.5px;
+    font-size: 15px;
     font-weight: 300;
 }
 .techstack {
@@ -63,12 +63,12 @@
     background-color: rgb(65, 64, 68);
 }
 .tech_logo {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     -webkit-user-drag: none;
 }
 .tech_name {
     color: rgb(255, 255, 255);
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500;
 }

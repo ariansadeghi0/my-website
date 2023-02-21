@@ -9,19 +9,19 @@ export default function NavBar() {
             Arian Sadeghi
           </Link>
           <div className={styles.nav_links}>
-            <Link className={styles.nav_link} to="about" offset={-75} smooth={true} duration={500}>
-              About
+            <Link className={styles.nav_link} to="about" offset={-50} smooth={true} duration={500}>
+              <div>About</div>
             </Link>
 
-            <Link className={styles.nav_link} to="projects" offset={-75} smooth={true} duration={500}>
+            <Link className={styles.nav_link} to="projects" offset={-50} smooth={true} duration={500}>
               Projects
             </Link>
 
-            <Link className={styles.nav_link} to="experiences" offset={-200} smooth={true} duration={500}>
+            <Link className={styles.nav_link} to="experiences" offset={-175} smooth={true} duration={500}>
               Experiences
             </Link>
 
-            <Link className={styles.nav_link} to="skills" offset={-75} smooth={true} duration={500}>
+            <Link className={styles.nav_link} to="skills" offset={-50} smooth={true} duration={500}>
               Skills
             </Link>
           </div>
