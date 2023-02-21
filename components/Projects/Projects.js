@@ -10,36 +10,42 @@ export default function Projects() {
             <div className={styles.projects}>
               <Project
                 name="Personal Website"
+                url="https://github.com/ariansadeghi0/my-website"
                 description="Created a personal website to showcase my projects, experience, and skills, and to also exercise my web development skills using CSS, JavaScript, React, NextJS, etc."
                 imgSrc="/project-photos/personal-website.jpg"
                 techStack={["HTML", "CSS", "JavaScript", "React", "NextJS", "Figma"]}
               />
               <Project
                 name="Purposive"
+                url="https://github.com/ariansadeghi0/Purposive"
                 description="Decided to explore the NextJS framework, MongoDB, and Auth0 to create a React based web application for task and schedule management that facilitates user authentication, CRUD database operations, etc."
                 imgSrc="/project-photos/purposive.jpg"
                 techStack={["HTML", "CSS", "JavaScript", "React", "NextJS", "MongoDB", "Figma"]}
               />
               <Project
                 name="Company Management System"
+                url="https://github.com/ariansadeghi0/Company-Management-System"
                 description="Utilized Git, agile methodologies, and UML diagrams in a group of 4 to create a GUI-based Java application that implements multiple design patterns and adheres to SOLID object-oriented design principles."
                 imgSrc="/project-photos/company-management-system.jpg"
                 techStack={["Java", "JavaFX", "Git"]}
               />
               <Project
                 name="Rocket Project"
+                url="https://github.com/ariansadeghi0/RocketProject"
                 description="Explored reinforcement learning and adopted an actor-critic model to train an AI to control, fly, and land rockets in a 2D simulation program, using Unity and the ML-Agents framework."
                 imgSrc="/project-photos/rocket-project.jpg"
                 techStack={["C-sharp", "Unity"]}
               />
               <Project
                 name="One Dash"
+                url="https://github.com/ariansadeghi0/OneDash"
                 description="Leveraged Unity to create a game for the DeerHacks 2022 hackathon as a sole developer, and ranked first among projects created by teams of 1 and 2 developers."
                 imgSrc="/project-photos/one-dash.jpg"
                 techStack={["C-sharp", "Unity"]}
               />
               <Project
                 name="Huffman Compression"
+                url=""
                 description="Implemented the Huffman Coding algorithm, enabling lossless data compression of various file formats by as much as 70%. Wrote various unit tests to ensure the correctness of the algorithm."
                 imgSrc="/project-photos/huffman-compression.png"
                 techStack={["Python"]}

@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./About.module.css";
 import Image from "next/image";
+import ResumeButton from "../ResumeButton/ResumeButton";
 
 export default function About() {
     return (
@@ -30,6 +31,9 @@ export default function About() {
                         </p>
                     </div>
                 </div>
+                <h2>Check out my Resume!</h2>
+                <br/>
+                <ResumeButton/>
             </div>
         </section>
     )

@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Project.module.css";
 import Image from "next/image";
 
-export default function Project({name, description, imgSrc, techStack}) {
+export default function Project({name, url, description, imgSrc, techStack}) {
 
     const techElements = techStack.map(tech => {
         return (
@@ -28,7 +28,7 @@ export default function Project({name, description, imgSrc, techStack}) {
                     width={700}
                     height={500}
                 />
-                <h3 className={styles.name}>{name}</h3>
+                <h3 className={styles.name} onClick={()=>url&&open(url)}>{name}</h3>
             </div>
             <div className={styles.description}>{description}</div>
             <div className={styles.techstack}>{techElements}</div>
