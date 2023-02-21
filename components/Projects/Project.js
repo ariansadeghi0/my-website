@@ -25,8 +25,8 @@ export default function Project({name, description, imgSrc, techStack}) {
                     src={imgSrc}
                     alt="An image of the project"
                     quality={100}
-                    width={350}
-                    height={225}
+                    width={700}
+                    height={500}
                 />
                 <h3 className={styles.name}>{name}</h3>
             </div>
