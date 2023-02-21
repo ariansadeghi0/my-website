@@ -10,7 +10,7 @@ export default function About() {
                 <h1 className={styles.title}>About Me</h1>
                 <div className={styles.inner_container}>
                     <Image className={styles.image}
-                        src="/my-photo2.jpg"
+                        src="/my-photo1.png"
                         alt="A photo of Arian"
                         quality={100}
                         width={314}
