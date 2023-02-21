@@ -6,9 +6,8 @@ export default function Project({name, url, description, imgSrc, techStack}) {
 
     const techElements = techStack.map(tech => {
         return (
-            <div className={styles.tech_element}>
+            <div className={styles.tech_element} key={tech}>
                 <Image className={styles.tech_logo} 
-                    key={tech}
                     src={`/logos/${tech}.png`}
                     quality={100}
                     width={50}
