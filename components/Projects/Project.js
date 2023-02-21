@@ -8,6 +8,7 @@ export default function Project({name, url, description, imgSrc, techStack}) {
         return (
             <div className={styles.tech_element}>
                 <Image className={styles.tech_logo} 
+                    key={tech}
                     src={`/logos/${tech}.png`}
                     quality={100}
                     width={50}

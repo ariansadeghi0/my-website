@@ -58,7 +58,7 @@ export default function GlitchingText({ staticText, strings }) {
         
         // Callback to clear interval when component is dismounted
         return () => clearInterval(interval);
-    }, []);
+    });
 
     return (
         <h2 className={styles.text_line}>{staticText}{currentText}</h2>

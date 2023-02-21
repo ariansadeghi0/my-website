@@ -69,6 +69,7 @@ function Skill({name, imgSrc, hasImage}) {
             {includeImage && 
                 <Image className={styles.skill_logo} 
                 src={imgSrc ? imgSrc : `/logos/${name}.png`}
+                alt="An image corresponding to the skill."
                 quality={100}
                 width={50}
                 height={50}

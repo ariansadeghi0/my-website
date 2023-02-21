@@ -41,6 +41,7 @@ function Experience({imgSrc, position, note, description}) {
         <div className={styles.experience} name="experiences">
             <Image className={styles.image}
                 src={imgSrc}
+                alt="An image for the experience."
                 quality={100}
                 width={300}
                 height={200}
