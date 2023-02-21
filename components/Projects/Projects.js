@@ -10,37 +10,37 @@ export default function Projects() {
             <div className={styles.projects}>
               <Project
                 name="Personal Website"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Created a personal website to showcase my projects, experience, and skills, and to also exercise my web development skills using CSS, JavaScript, React, NextJS, etc."
                 imgSrc="/project-photos/personal-website.jpg"
                 techStack={["HTML", "CSS", "JavaScript", "React", "NextJS", "Figma"]}
               />
               <Project
                 name="Purposive"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Decided to explore the NextJS framework, MongoDB, and Auth0 to create a React based web application for task and schedule management that facilitates user authentication, CRUD database operations, etc."
                 imgSrc="/project-photos/purposive.jpg"
                 techStack={["HTML", "CSS", "JavaScript", "React", "NextJS", "MongoDB", "Figma"]}
               />
               <Project
                 name="Company Management System"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Utilized Git, agile methodologies, and UML diagrams in a group of 4 to create a GUI-based Java application that implements multiple design patterns and adheres to SOLID object-oriented design principles."
                 imgSrc="/project-photos/company-management-system.jpg"
-                techStack={["Java", "JavaFX"]}
+                techStack={["Java", "JavaFX", "Git"]}
               />
               <Project
                 name="Rocket Project"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Explored reinforcement learning and adopted an actor-critic model to train an AI to control, fly, and land rockets in a 2D simulation program, using Unity and the ML-Agents framework."
                 imgSrc="/project-photos/rocket-project.jpg"
                 techStack={["C-sharp", "Unity"]}
               />
               <Project
                 name="One Dash"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Leveraged Unity to create a game for the DeerHacks 2022 hackathon as a sole developer, and ranked first among projects created by teams of 1 and 2 developers."
                 imgSrc="/project-photos/one-dash.jpg"
                 techStack={["C-sharp", "Unity"]}
               />
               <Project
                 name="Huffman Compression"
-                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                description="Implemented the Huffman Coding algorithm, enabling lossless data compression of various file formats by as much as 70%. Wrote various unit tests to ensure the correctness of the algorithm."
                 imgSrc="/project-photos/huffman-compression.png"
                 techStack={["Python"]}
               />
