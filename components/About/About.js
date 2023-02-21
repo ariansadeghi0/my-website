@@ -16,8 +16,18 @@ export default function About() {
                         height={314}
                     />
                     <div className={styles.paragraphs}>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p>
+                            Hey, glad to have you here! My name's Arian, and I'm a Computer Science student at the University of Toronto. From early on in my childhood and to this day, I've always had a passion for creating things. While I've moved on from creating lego structures, I now execise my passion by creating software and expanding my knowledge in the vast and growing domain of software development.
+                        </p>
+                        <p>
+                            Through various projects and my studies, I've become acquainted with fundamentals such as software design, OOP, programming, algorithms and data structures, and have also gained valuable experience with application and web development.
+                        </p>
+                        <p>
+                            Currently, I'm a Teaching Assistant at UofT, responsible for spreading the wisdom of Integral Calculus. I've also completed two summer internships, equipping me with professional experience and a variety of valuable skills.
+                        </p>
+                        <p>
+                            I'm currently seeking internships for Summer 2023 and would be happy to explore exciting opportunities! You can view my projects, experiences, skills, resume, and contacts below!
+                        </p>
                     </div>
                 </div>
             </div>

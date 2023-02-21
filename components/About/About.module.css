@@ -31,9 +31,9 @@
 }
 
 .paragraphs {
-    font-size: 21px;
+    font-size: 19px;
     font-weight: 300;
-    width: 500px;
+    width: min(800px, 50vw);
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -41,8 +41,8 @@
 }
 
 .image {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     margin: 20px;
     -webkit-user-drag: none;
